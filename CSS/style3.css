@@ -1,0 +1,6 @@
+/* Style nya di grup. */
+h1, p, .isi_artikel, #isi_artikel2 {
+    color: darkred;
+    text-align: justify;
+    text-align: center;
+}

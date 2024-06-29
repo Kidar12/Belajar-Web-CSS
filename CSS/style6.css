@@ -1,0 +1,18 @@
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+#p2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.p3{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+#p4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

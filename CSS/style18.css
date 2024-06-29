@@ -1,0 +1,28 @@
+.link, .teks{
+    display: block;
+    /* gunanya display: block adalah agar elemen elemen yang jika dimasukkan menyamping ke kanan dan tidak membuat baris baru menjadi membuat baris baru kebawah, tidak menyamping. */
+    margin-top: 5px;
+}
+
+ol li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* gunanya inline block agar membuat elemen elemn yang tadinya selalu membuat baris baru saat di masukkan menjadi sebaris saja. PROPERTI "WIDTH" DAN "HEIGHT" TIDAK TERPENGARUH JIKA DI TAMBAHKAN DAN MARGIN TOP-BOTTOM TIDAK BERGUNA JUGA. tapi jika menggunakan "inline-block", width dan height akan berguna*/
+}
+
+ul li{
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+}
+
+li{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}

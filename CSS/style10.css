@@ -1,0 +1,23 @@
+.title{
+    text-align: center;
+}
+
+.sub{
+    text-align: left;
+}
+
+.isi{
+    text-align: justify;
+    line-height: 40px;
+    /* line height berguna untuk mengatur jarak spasi antar baris */
+}
+
+.sub2{
+    text-align: right;
+}
+
+.isi2{
+    text-align: justify;
+    text-indent: 40px;
+    /* gunanya text indent yaitu sama fungsinya seperti jika ingin membuat paragraf di word dengan cara tab. jadi dia membuat satu barisnya lebih menjolor kedalam. */
+}

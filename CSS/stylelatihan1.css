@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    width: 300px;
+    border: 0px solid;
+    background-color: cornflowerblue;
+    margin: 285px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 25%;
+    padding: 2px;
+    color: white;
+    background-color: darkblue;
+}
+
+.title{
+    color: white;
+}

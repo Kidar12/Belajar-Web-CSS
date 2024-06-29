@@ -1,0 +1,13 @@
+.capt{
+    text-transform: capitalize;
+    
+}
+/* membuat setiap awalan kalimat menjadi kapital */
+
+.up{
+    text-transform: uppercase;
+}
+
+.low{
+    text-transform: lowercase;
+}

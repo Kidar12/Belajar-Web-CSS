@@ -1,0 +1,17 @@
+.title{
+    text-decoration: underline;
+}
+
+.link{
+    text-decoration: line-through;
+}
+
+.link2{
+    text-decoration: none;
+}
+
+/* none berguna untuk menghilangkan garis bawah pada link. */
+
+.link3{
+    text-decoration: overline;
+}

@@ -1,0 +1,44 @@
+/* element clear berguna seperti enter yaitu memberhentikan element float agar ia tidak terus berlanjut ke arah samping tetapi berlanjut kebawah*/
+
+.container{
+    
+    width: 800px;
+    margin: 30px auto;
+    text-align: justify;
+}
+
+.img{
+    width: 350px;
+    float: left;
+    margin-right: 10px;
+}
+
+.enter1{
+    clear: left;
+}
+
+.container2{
+    margin: 30px auto;
+    text-align: justify;
+}
+
+.img2{
+    width: 350px;
+    float: right;
+    margin-left: 10px;
+}
+
+.enter2{
+    clear: right;
+}
+
+.container3{
+    margin: 30px auto;
+    text-align: justify;
+}
+
+.img3{
+    width: 350px;
+    float: left;
+    margin-right: 10px;
+}

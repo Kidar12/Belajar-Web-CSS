@@ -1,0 +1,22 @@
+.container{
+    width: 400px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.kotak1, .kotak2, .kotak3{
+    width: 300px;
+    background-color: cadetblue;
+    color: white;
+    margin: 5px;
+    box-sizing: border-box;
+    /* gunanya adalah mempertahankan aturan border yang sudah di buat. jadi padding dll tidak akan berguna karena di kolom ini i=width nya sudah di atur 300px. jadi padding tidak berguna */
+}
+
+.kotak1, .kotak2{
+    padding: 11px;
+}
+
+.kotak3{
+    border: 10px solid orange;
+}

@@ -1,0 +1,15 @@
+.artikel{
+    width: 300px;
+    height: 200px;
+    color: whitesmoke;
+    background-color: cadetblue;
+    overflow: auto;
+}
+
+.p1{
+    width:25%;
+    height: 500px;
+    color: whitesmoke;
+    background-color: black;
+    overflow: scroll;
+}

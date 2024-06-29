@@ -1,0 +1,18 @@
+.tes{
+    width: 1520px;
+    /* bisa juga pake %. dan jika pakai % maka koraknya akan selalu ikut rasio web nya. */
+    height: 100px;
+    background-color: darkkhaki;
+}
+
+.sq2{
+    width: 50%;
+    height: 250px;
+    background-color: pink;
+}
+
+.sq{
+    width: 50%;
+    height: 100px;
+    background-color: darksalmon;
+}

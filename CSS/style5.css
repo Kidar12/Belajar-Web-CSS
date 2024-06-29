@@ -1,0 +1,57 @@
+/* jika ingin mencoba yang link only, maka nonaktifkan yang .link aja sampe bawah. */
+
+/* a{
+    color: red;
+} */
+/* mengapa warna link nya tidak merah pada web nya?, karena jika aku masukkin link yang udah pernah kubuka sebelumnya di href, maka dia akan terbaca udah pernah di liat makanya warnanya pink. Coba masukin link yt random apa aja atau postingan feed ig random apa aja, hasilnya akan merah dan setelah di buka akan menjadi pink menandakan link nya sudah pernah di buka. */
+
+/* a:visited{
+    color: pink;
+} */
+/* for me, visited bisa mengecoh bgt jadi mungkin better ga di pake (?) */
+
+/* a:hover{
+    color: darkgreen;
+}
+
+.link2:hover{
+    background-color: black;
+    color: darkorchid;
+}
+
+a:active{
+    color: deeppink;
+} */
+/* cara melihat perubahannya yaitu dengan cara hover kursor nya ke link nya lalu klik tahan. */
+
+.link{
+    color: black;
+}
+
+.link:hover{
+    color: red;
+}
+
+#link2{
+    color: black;
+}
+
+#link2:hover{
+    color: yellow;
+}
+
+.link3{
+    color: whitesmoke;
+}
+
+.link3:hover{
+    color: deepskyblue;
+}
+
+ul li a{
+    color: red;
+}
+
+ul li a:hover{
+    background-color: aqua;
+}

@@ -1,0 +1,78 @@
+/* padding memberi jarak antar elemen. misalkan terdapat text box (contoh p4) jika di beri padding 20px maka dia akan memberi jarak sebanyak 20px di setiap sisi dalam text box nya */
+/* margin memberi jarak antar elemen juga. misalkan terdapat text box (contoh container ataupun yang lain) ia akan memberikan jarak di sekeliling/setiap sisi luar (social distancing) sebanyak px yang kita masukkan */
+/* maka dari itu terdapat opsi untuk memberikan padding atau margin salah satu saja. (padding-top, margin-botton, dsb) */
+
+/* *{
+    padding-inline-start: 150px;
+} */
+/* tanda bintang artinya mengubah semuanya, seluruh halaman */
+
+.p1{
+    color: white;
+    /* ubah warna font */
+    background-color: darkblue;
+    width: 200px;
+    height: 175px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 25%;
+    text-align: justify;    
+}
+
+.p2{
+    width: 200px;
+    height: 300px;
+    padding: 20px 15px;
+    /* bisa di gabungkan, yang 20px adalah padding atas dan bawah frame dan 15px nya kanan dan kirinya */
+    margin-left: 25%;
+    text-align: justify;
+}
+
+.p3{
+    width: 200px;
+    height: 175px;
+    color: white;
+    background-color: darkblue;
+    padding: 20px 15px;
+    margin-left: 25%;
+    text-align: justify;
+}
+
+.container{
+    color: whitesmoke;
+    background-color: rgb(85, 140, 142);
+    width: 350px;
+    height: 550px;
+    padding-right: 40px;
+    padding-left: 10px;
+    padding-top: 0.5px;
+    margin-left: 25%;
+}
+
+.p4{
+    background-color: rgb(92, 147, 149);
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.p5{
+    background-color: rgb(92, 147, 149);
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.p6{
+    background-color: rgb(92, 147, 149);
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.img{
+    float: right;
+}

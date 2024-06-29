@@ -1,0 +1,17 @@
+/* Tag Selector */
+h1 {
+    color: saddlebrown;
+}
+p {
+    color: saddlebrown;
+}
+
+/* Class Selector */
+.lorem2 {
+    color: darkgoldenrod;
+}
+
+/* ID Selector */
+#lorem3 {
+    color: darkolivegreen;
+}

@@ -1,0 +1,21 @@
+.body{
+    /* background-color: cadetblue; */
+    background-image: url(../pic/Download\ free\ psd\ _\ image\ of\ White\ marble\ background\ with\ silver\ stars\ pattern\ by\ Ning\ about\ silver\ stars\,\ stars\ background\ silver\,\ stars\ marble\ background\,\ silver\ glitter\ marble\ background\,\ and\ silver\ 2402520.jpg);
+    background-repeat: no-repeat;
+    /* berfungsi agar gambar nya tidak mengulang ketika gambar nya lebih kecil di webnya. */
+    background-size: cover;
+    /* berfungsi agar gambarnya memenuhi layar. */
+    height: 1000px;
+    /* biar bisa di scroll web nya */
+    background-attachment: fixed;
+    /* agar saat di scroll, gambar background nya tidak ikut ke scroll dan akan menetap. */
+}
+
+.isi{
+    width: 700px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(../pic/╰\(\ ･\ ᗜ\ ･\ \)➝\ \(🍇🍙\)\)\ by\ @hahanhk1.jpg);
+    background-size: cover;
+}
